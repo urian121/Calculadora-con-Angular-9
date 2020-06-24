@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'operacionesmat';
+
+ // cantidadone: number;
+  cantidadone = 0;
+  cantidadtwo = 0;
+  resultado = 0;
+
+  multiplication(){
+  let res =  this.resultado = (this.cantidadone * this.cantidadtwo);
+    console.log(res);
+  }
+
 }
